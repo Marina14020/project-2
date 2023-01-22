@@ -1,0 +1,30 @@
+.member{
+    text-align: center;
+
+    &__image{
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    &__text{
+        color: #292929;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+       
+    &__occ{
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 7px;
+    }    
+    
+    &__desc{
+        font-weight: 400;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,40 @@
+.benefit{
+    text-align: center;
+
+    &__image-wrapper{
+        display: inline-block;  /*-flex-в лек. и так м.*/
+        width: 128px;  /*четн*/
+        height: 128px;
+        position: relative;
+        background: #F2F5F4;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 24px;
+        }
+
+    &__icon{
+        width: 68px;
+        height: 68px;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        transform: translate(-50% -50%);
+    }
+
+    &__text{
+        color: #292929;
+        padding-left: 46px;
+        padding-right: 40.9px;
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 7px;
+    }
+    
+    &__desc{
+        font-weight: 400;
+        font-size: 16px;
+    }
+}

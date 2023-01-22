@@ -1,0 +1,43 @@
+$containerWidth: 1100px;
+$baseFontSize: 16px;
+
+//colors
+$grey: #F5F5F5;
+$black: #181818;
+$light-gray: #F8FAF9;
+
+//normalise
+@import url("https://cdnjs.cloudeflare.com/ajax/libs/normalise/8.0.1/normalise.css");
+@import url("https://fonts.googleapis.com");
+
+
+@import "./blocks/_base.scss";
+@import "./blocks/_hero.scss";
+@import "./blocks/_header.scss";
+@import "./blocks/_features.scss";
+@import "./blocks/_feature.scss";
+@import "./blocks/_hello.scss";
+@import "./blocks/_btn.scss";
+@import "./blocks/_section.scss";
+@import "./blocks/_headline.scss";
+@import "./blocks/_benefits.scss";
+@import "./blocks/_benefit.scss";
+@import "./blocks/_benefits-section.scss";
+@import "./blocks/_heading.scss";
+@import "./blocks/_peculiarities.scss";
+@import "./blocks/_peculiarity.scss";
+@import "./blocks/_command.scss";
+@import "./blocks/_headline-com.scss";
+@import "./blocks/_member.scss";
+
+
+
+
+
+
+// setups
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&family=Play:wght@400;700&display=swap");
+
+
+

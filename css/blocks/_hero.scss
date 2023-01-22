@@ -1,0 +1,42 @@
+.hero{
+    background-color: $grey;
+    height: 100vh;
+    min-height: 652px;
+    color: #292929;
+    position: relative;/*для прямоугольничка &:before*/
+    
+    &:before{
+        position: absolute;
+        bottom: -30px;
+        left: 76%;
+        content: url("../img/decor/corner-rectangle-1.png");
+    }
+    
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 24px 80px 67px;
+        background: url("../img/decor/headphones-1.png") right 73px center / 47% no-repeat;
+    }
+
+    &__title-section{
+        width: 42%;
+    }
+
+    &__main-title{
+        font-size: 48px;
+        line-height: 1.1;
+        font-weight: 700;
+        margin-bottom: 22px;
+        text-transform: uppercase;
+    }
+
+    &__title-desk{
+        font-family: 'Alegreya Sans';
+        font-size: 21px;
+        margin-bottom: 36px;
+        padding-right: 10%;
+    }
+}

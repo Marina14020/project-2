@@ -1,0 +1,20 @@
+.command-section{
+    position: relative;
+    height: 100vh;
+    min-height: 656px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 57px 80px 67px;
+}
+
+.command{
+    display: flex;
+    padding: 0px 10px 0px 79px;
+
+    &__item{
+        flex: 1;
+       /*padding: 0 3%;*/
+       
+    }
+}
