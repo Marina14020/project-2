@@ -1,0 +1,12 @@
+.reviews{
+    display: flex;
+    padding: 0px 10px 0px 79px;
+
+    &__wrapper{
+       
+        top: 55px;
+        right: 0;
+       
+        background: $light-gray;
+    }
+}

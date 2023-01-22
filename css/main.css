@@ -103,7 +103,7 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding: 24px 80px 67px;
+  padding: 31px 80px 70px;
   background: url("../img/decor/headphones-1.png") right 73px center/47% no-repeat;
 }
 .hero__title-section {
@@ -491,13 +491,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 10px 0px 79px;
+  padding: 0px 80px;
 }
 .command__item {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  /*padding: 0 3%;*/
 }
 
 .headline-com {
@@ -505,7 +504,6 @@ a {
 }
 .headline-com__title {
   margin-top: 73px;
-  margin-top: 40px;
   margin-bottom: 53px;
   color: #292929;
   font-weight: 700;
@@ -516,13 +514,16 @@ a {
   text-align: center;
 }
 .member__image {
-  padding-right: 10px;
+  padding-right: 20px;
   width: 100%;
+}
+.member__image:last-child {
+  padding-right: 0px;
 }
 .member__text {
   color: #292929;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .member__title {
   font-weight: 700;
@@ -537,4 +538,47 @@ a {
 .member__desc {
   font-weight: 400;
   font-size: 16px;
+  margin-bottom: 51px;
+  /*display: none;*/
+}
+
+.color {
+  background: #000000;
+  height: 100vh;
+  min-height: 652px;
+  color: #FFFFFF;
+}
+.color__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100%;
+  padding: 0px 0px 0px 79px;
+}
+
+.headline-col {
+  text-align: center;
+}
+.headline-col__title {
+  margin-top: 115px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 10px 0px 79px;
+}
+.reviews__wrapper {
+  top: 55px;
+  right: 0;
+  background: #F8FAF9;
 }

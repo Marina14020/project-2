@@ -5,6 +5,7 @@ $baseFontSize: 16px;
 $grey: #F5F5F5;
 $black: #181818;
 $light-gray: #F8FAF9;
+$black: #000000;
 
 //normalise
 @import url("https://cdnjs.cloudeflare.com/ajax/libs/normalise/8.0.1/normalise.css");
@@ -29,7 +30,9 @@ $light-gray: #F8FAF9;
 @import "./blocks/_command.scss";
 @import "./blocks/_headline-com.scss";
 @import "./blocks/_member.scss";
-
+@import "./blocks/_color.scss";
+@import "./blocks/_headline-col.scss";
+@import "./blocks/_reviews.scss";
 
 
 

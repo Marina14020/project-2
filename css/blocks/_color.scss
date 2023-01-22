@@ -1,0 +1,15 @@
+.color{
+    background: $black;
+    height: 100vh;
+    min-height: 652px;
+    color: #FFFFFF;
+
+   
+    
+    &__container{
+        display: flex;
+        align-items: flex-start;
+        height: 100%;
+        padding: 0px 0px 0px 79px;
+    }
+}
