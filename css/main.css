@@ -636,3 +636,24 @@ a {
   -webkit-transform: translate(-50% -50%);
           transform: translate(-50% -50%);
 }
+
+.footer__address {
+  font-size: 18px;
+  color: #292929;
+  margin: 20px 42px 86px;
+}
+.footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-right: 30px;
+}
+.footer__social {
+  margin-right: 10px;
+}
+.footer__social:last-child {
+  margin-right: 0px;
+}
