@@ -89,7 +89,7 @@ a {
 .hero:before {
   position: absolute;
   bottom: -30px;
-  left: 76%;
+  left: 84%;
   content: url("../img/decor/corner-rectangle-1.png");
 }
 .hero__container {
