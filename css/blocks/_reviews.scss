@@ -1,12 +1,81 @@
 .reviews{
-    display: flex;
-    padding: 0px 10px 0px 79px;
+    
+    &-section{
+        position: relative;
 
-    &__wrapper{
-       
-        top: 55px;
-        right: 0;
-       
-        background: $light-gray;
+        &:before{
+            content: url("../img/decor/sphere.png");
+            position: absolute;
+            bottom: -20px;
+            left: 10%;
+        }
     }
+    
+    &__display{
+        overflow: hidden;
+        position: relative;
+
+        &::before{
+            content: "";
+            display: block;
+            width: 83px;
+            height: 83px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -61px;
+        }
+        
+        &--inner{
+            display: flex;
+            background: $light-gray;
+            padding: 42px 74px 42px 42px;
+        }
+    }
+
+    &__avatar{
+        width: 253px;
+        height: 264px;
+
+        &--img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__content{
+        flex: 1;
+        margin-left: 39px;
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 27px;
+        margin-top: 29px;
+        color: #292929;
+    }
+
+    &__text{
+        margin-bottom: 27px;
+        margin-right: 236px;
+    }
+
+    &__author{
+        font-weight: 700;
+        font-size: 18px;
+        color: #292929;
+    }
+
+    &__switcher{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+    
 }
+
+

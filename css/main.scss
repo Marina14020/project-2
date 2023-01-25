@@ -2,10 +2,22 @@ $containerWidth: 1100px;
 $baseFontSize: 16px;
 
 //colors
+$ColorTitle: #292929;
 $grey: #F5F5F5;
 $black: #181818;
 $light-gray: #F8FAF9;
 $black: #000000;
+$red: #E01F3D;
+$lightRed: #9a5660;
+$Dark: #CA1B36;
+$white: #FFFFFF;
+
+
+
+
+//z-index   чт фикс меню ничто не перекрывало
+$z-fixed-menu: 100; 
+
 
 //normalise
 @import url("https://cdnjs.cloudeflare.com/ajax/libs/normalise/8.0.1/normalise.css");
@@ -20,14 +32,16 @@ $black: #000000;
 @import "./blocks/_hello.scss";
 @import "./blocks/_btn.scss";
 @import "./blocks/_section.scss";
+@import "./blocks/_container.scss";
 @import "./blocks/_headline.scss";
 @import "./blocks/_benefits.scss";
 @import "./blocks/_benefit.scss";
 @import "./blocks/_benefits-section.scss";
 @import "./blocks/_reviews.scss";
-
-
-
+@import "./blocks/_interactive-avatar.scss";
+@import "./blocks/_form.scss";
+@import "./blocks/_radio.scss";
+@import "./blocks/_fixed-menu.scss";
 
 
 // setups

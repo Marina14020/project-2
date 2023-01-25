@@ -1,4 +1,5 @@
 .btn{
+
     font-size: 16px;
     font-weight: 700;
     padding: 18px 41px;
@@ -6,14 +7,41 @@
     border-radius: 100px;
     line-height: 1;
     text-decoration: none;
+    display: inline-block;
+    border: none;
+    
+    &__color{
+        
+        &--red{
+            background: $red;
+            color: $white;
 
-    &__color--red{
-        background: #E01F3D;
-        color: #FFFFFF;
+            &:hover{
+                background: $lightRed;
+                color: #4d4c4c;
+            }
+        }    
 
-        &:hover{
-            background: #9a5660;
-            color: #4d4c4c;
+        &--dark{
+            color: $white;
+            background: $Dark;
+
+            &:hover{
+                color: $red;
+                background: $white;
+            }
+        }    
+    
+        &--transparent{
+            background: transparent;
+            font-weight: 200;
+            color: #FFFFFF;
+            text-transform: none;
+            
+            &:hover{
+                color: $Dark;
+                background: #FFFFFF;
+            }
         }
     }
 }

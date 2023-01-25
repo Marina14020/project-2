@@ -1,17 +1,30 @@
 .section{
     height: 100vh;
-    min-height: 651px;
+    min-height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 24px 80px 67px;/*--*/
+    
 
     &__title{    
         font-size: 48px;
         font-weight: 700;
-        margin-bottom: 30px;
+        margin-bottom: 32px;
         text-align: center;
         text-transform: uppercase;
-        color: #292929;
+        color: $ColorTitle;
+    }
+
+    &__color-white{ //доставка
+        background: url("../img/decor/form-bk.png") center center no-repeat;
+        background-size: cover;
+        color: $white;
+    }
+
+    &__title-form{ //доставка
+        font-size: 48px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $white;
     }
 }

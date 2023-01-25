@@ -67,7 +67,7 @@
             </section>
 
             <section class="section benefits-section">
-                <div class="container">
+                <div class="container container__benefits">
                     <div class="headline">
                         <h2 class="section__title headline__title">
                             Почему beats solo 3?
@@ -133,10 +133,11 @@
                 </div>
             </section>
 
-            <div class="section">
-                <div class="container">
+            <section class="section reviews-section">
+                <div class="container reviews__container">
                     <h2 class="section__title">Отзывы</h2>
                     <div class="reviews">
+                        <!--Big review-->
                         <div class="reviews__display">
                             <div class="reviews__display reviews__display--inner">
                                 <div class="reviews__avatar">
@@ -157,30 +158,126 @@
                             </div>
                         </div>
                         <ul class="reviews__switcher">
-                            <li class="reviews__switcher-item interactive-avatar">
+                            <li class="reviews__switcher-item interactive-avatar interactive-avatar--active">
                                 <a href="#" class="interactive-avatar__link">
-                                    <img src="./img/content/Billi.png" alt="girl with headphones" class="interactive-avatar__img">
+                                    <img 
+                                        src="./img/content/Billi.png" 
+                                        alt="girl with headphones" 
+                                        class="interactive-avatar__img"
+                                    />
                                 </a>
                             </li>
                             <li class="reviews__switcher-item interactive-avatar">
                                 <a href="#" class="interactive-avatar__link">
-                                    <img src="./img/content/Billi.png" alt="girl with headphones" class="interactive-avatar__img">
+                                    <img src="./img/content/Vadim.png" alt="girl with headphones" class="interactive-avatar__img">
                                 </a>
                             </li>
                             <li class="reviews__switcher-item interactive-avatar">
                                 <a href="#" class="interactive-avatar__link">
-                                    <img src="./img/content/Billi.png" alt="girl with headphones" class="interactive-avatar__img">
+                                    <img src="./img/content/Maria.png" alt="girl with headphones" class="interactive-avatar__img">
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div style="height: 600px; background: rgb(234, 209, 209);"></div>
-
+            <section class="section order-section section__color-white">
+                <div class="container">
+                    <div class="headline-or">
+                        <h2 class="section__title section__title-form">закажите доставку</h2>
+                        <form class="form">
+                            <div class="form__col">
+                                <!--1-ый ряд для формы-->
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <div class="form__title">Имя</div>
+                                        <input type="text" class="form__input">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__title">Телефон</div>
+                                        <input type="text" class="form__input">
+                                    </label>
+                                </div>
+                                <!--2-ой ряд для формы-->
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <div class="form__title">Улица</div>
+                                        <input type="text" class="form__input">
+                                    </label>
+                                </div>
+                                <!--3-й ряд для формы-->
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <div class="form__title">Дом</div>
+                                        <input type="text" class="form__input">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__title">Корпус</div>
+                                        <input type="text" class="form__input">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__title">Квартира</div>
+                                        <input type="text" class="form__input">
+                                    </label>
+                                    <label class="form__block">
+                                        <div class="form__title">Этаж</div>
+                                        <input type="text" class="form__input">
+                                    </label>
+                                </div>
+                            </div>
+                            <!--правая часть формы-->
+                            <div class="form__col">
+                                <div class="form__row">
+                                    <label class="form__block">
+                                        <div class="form__title">Комментарий</div>
+                                        <textarea class="form__input form__input--textarea"></textarea>
+                                    </label>
+                                </div>
+                                <div class="form__controls">
+                                    <label class="radio">
+                                        <input type="radio" name="option" class="radio__elem"> <!--для переключения между своей группой. радио кнопка -не нужна-->
+                                        <div class="radio__visible"></div>
+                                        <div class="radio__title">Потребуется сдача</div>
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="option" class="radio__elem">
+                                        <div class="radio__visible"></div>
+                                        <div class="radio__title">Оплата картой</div>
+                                    </label>
+                                </div>
+                                <div class="form__controls">
+                                    <label class="radio radio--checkbox">
+                                        <input type="checkbox" class="radio__elem">  <!--чб кнопка раб-->
+                                        <div class="radio__visible"></div>
+                                        <div class="radio__title">Не перезванивать</div>
+                                    </label>
+                                </div>
+                                <div class="form__btns">
+                                    <input type="submit" value="Заказать" class="btn btn__color--dark">
+                                    <input type="reset" value="Очистить" class="btn btn__color--transparent">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!--<div style="height: 600px; background: rgb(234, 209, 209);"></div>-->
         </div>
     </div>
+    <nav class="fixed-menu">
+        <ul class="fixed-menu__list">
+            <li class="fixed-menu__item fixed-menu__item--active"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+            <li class="fixed-menu__item"><a href="" class="fixed-menu__link"></a></li>
+        </ul>
+    </nav>
 
 </body>
 
