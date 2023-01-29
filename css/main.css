@@ -151,11 +151,14 @@ a {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+  }
+  .hero__title-section:before {
     content: "";
     width: 20.1875rem;
     height: 20.1875rem;
     background: url("../img/decor/headphones-1.png") center center/contain no-repeat;
     margin-bottom: 3.375rem;
+    margin-top: 3.25rem;
   }
 }
 .hero__main-title {
@@ -168,6 +171,7 @@ a {
 @media screen and (max-width: 768px) {
   .hero__main-title {
     padding: 0 5%;
+    margin-top: 4rem;
   }
 }
 .hero__title-desk {
@@ -178,7 +182,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   .hero__title-desk {
-    padding: 0 28%;
+    padding: 0 27%;
   }
 }
 

@@ -45,13 +45,27 @@
             align-items: center;   //поперечн ось выравн
             text-align: center;
 
-            content: "";
-            width: rem(323px);
-            height: rem(323px);
-            background: url("../img/decor/headphones-1.png") center center/contain no-repeat;
-            margin-bottom: rem(54px);
-           
+            &:before{
+                content: "";
+                width: rem(323px);
+                height: rem(323px);
+                background: url("../img/decor/headphones-1.png") center center/contain no-repeat;
+                margin-bottom: rem(54px);
+                margin-top: rem(52px);
+            }
         }
+
+            //&:before{
+                //background-image: "../img/decor/headphones-1.png";
+                //display: flex;
+            
+            //}        
+            //&:before{
+                //content: url("../img/decor/headphones-1.png");
+                
+            //}
+
+            
     }
 
     &__main-title{
@@ -63,6 +77,8 @@
 
         @include tablets{
             padding: 0 5%;
+            margin-top: rem(64px);
+           
         }
     }
 
@@ -73,7 +89,7 @@
         padding-right: 10%;
 
         @include tablets{
-            padding: 0 28%;
+            padding: 0 27%;
         }
     }
 
