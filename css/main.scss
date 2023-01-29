@@ -24,16 +24,8 @@ $z-fixed-menu: 100;
 
 //@import "media";
 
-//normalise
-@import url("https://cdnjs.cloudeflare.com/ajax/libs/normalise/8.0.1/normalise.css");
 
 
-// setups
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&family=Play:wght@400;700&display=swap");
-
-//@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
-//@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
 
 // blocks
 @import "./blocks/_media.scss";  //самый первый чб сработала ф-ция
@@ -58,6 +50,13 @@ $z-fixed-menu: 100;
 @import "./blocks/_footer.scss";
 
 
+//normalise
+//@import url("https://cdnjs.cloudeflare.com/ajax/libs/normalise/8.0.1/normalise.min.css");
+
+
+// setups
+//@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&family=Play:wght@400;700&display=swap");
 
 
 
