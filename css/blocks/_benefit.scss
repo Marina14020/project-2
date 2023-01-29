@@ -3,18 +3,18 @@
 
     &__image-wrapper{
         display: inline-block;  /*-flex-в лек. и так м.*/
-        width: 128px;  /*четн*/
-        height: 128px;
+        width: rem(128px);  /*четн*/
+        height: rem(128px);
         position: relative;
         background: #F2F5F4;
         border-radius: 50%;
         overflow: hidden;
-        margin-bottom: 24px;
+        margin-bottom: rem(24px);
         }
 
     &__icon{
-        width: 68px;
-        height: 68px;
+        width: rem(68px);
+        height: rem(68px);
         position: absolute;
         top: 25%;
         left: 25%;
@@ -27,14 +27,14 @@
 
     &__title{
         font-weight: 700;
-        font-size: 24px;
-        margin-bottom: 7px;
+        font-size: rem(24px);
+        margin-bottom: rem(7px);
     }
     
     &__desc{
         font-weight: 400;
-        font-size: 16px;
-        padding-left: 41px;
-        padding-right: 41px;
+        font-size: rem(16px);
+        padding-left: rem(41px);
+        padding-right: rem(41px);
     }
 }

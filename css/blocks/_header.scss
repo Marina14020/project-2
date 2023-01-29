@@ -4,20 +4,29 @@
     justify-content: space-between;
 }
 
+.phone-number.header__phone-number{   //увеличили значение селектора-2класса
+    @include tablets{
+        display: none;
+    }
+}
+
 .menu{   
+    @include tablets{
+        display: none;
+    }
 
     &__list{
         font-family: 'Alegreya Sans';
         display: flex;
         align-items: center;
-        font-size: 18px;
+        font-size: rem(18px);
     }
 
     &__item{
-        margin-right: 27px;
+        margin-right: rem(27px);
         
         &:last-child{
-            margin-right: 0px;
+            margin-right: rem(0px);
         }
     }
 
@@ -27,7 +36,7 @@
 }
 
 .phone-number{
-    font-size: 18px;
+    font-size: rem(18px);
     text-decoration: none;
     font-weight: 400;
     font-family: 'Play';
@@ -35,8 +44,8 @@
     align-items: center;
     
     &__icon-elem{
-        width: 14px;
-        height: 14px;
-        margin-right: 7px;
+        width: rem(14px);
+        height: rem(14px);
+        margin-right: rem(7px);
     }
 }

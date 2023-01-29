@@ -1,22 +1,22 @@
 .footer{
 
     &__address{
-        font-size: 18px;
+        font-size: rem(18px);
         color: $ColorTitle;
-        margin: 20px 42px 86px;
+        margin: rem(20px) rem(42px) rem(86px);
     }
 
     &__contacts{
         display: flex;
         justify-content: end;
-        margin-right: 30px;
+        margin-right: rem(30px);
     }
 
     &__social{
-        margin-right: 10px;
+        margin-right: rem(10px);
 
         &:last-child{
-            margin-right: 0px;
+            margin-right: rem(0px);
         }
     }
     

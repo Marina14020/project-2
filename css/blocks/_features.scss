@@ -5,8 +5,8 @@
     }
 
     &__item{
-        margin-right: 19px;
-        max-width: 166px;
+        margin-right: rem(19px);
+        max-width: rem(166px);
        
         &:last-child{
             margin-right: 0;

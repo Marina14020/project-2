@@ -1,6 +1,10 @@
 $containerWidth: 1100px;
 $baseFontSize: 16px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 //colors
 $ColorTitle: #292929;
 $grey: #F5F5F5;
@@ -18,12 +22,21 @@ $white: #FFFFFF;
 //z-index   чт фикс меню ничто не перекрывало
 $z-fixed-menu: 100; 
 
+//@import "media";
 
 //normalise
 @import url("https://cdnjs.cloudeflare.com/ajax/libs/normalise/8.0.1/normalise.css");
-@import url("https://fonts.googleapis.com");
 
 
+// setups
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&family=Play:wght@400;700&display=swap");
+
+//@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+//@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap");
+
+// blocks
+@import "./blocks/_media.scss";  //самый первый чб сработала ф-ция
 @import "./blocks/_base.scss";
 @import "./blocks/_hero.scss";
 @import "./blocks/_header.scss";
@@ -45,9 +58,7 @@ $z-fixed-menu: 100;
 @import "./blocks/_footer.scss";
 
 
-// setups
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400&family=Play:wght@400;700&display=swap");
+
 
 
 
