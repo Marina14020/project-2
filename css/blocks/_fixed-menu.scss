@@ -5,7 +5,7 @@
     z-index: $z-fixed-menu;
 
     &__item{
-        margin-bottom: rem(5px);
+        margin-bottom: 5px;
     
         &--active{
             .fixed-menu__link{
@@ -15,18 +15,18 @@
     }
 
     &__link{
-        width: rem(18px);
-        height: rem(18px);
+        width: 18px;
+        height: 18px;
         border-radius: 50%;
-        border: rem(1px) solid transparent;
+        border: 1px solid transparent;
         display: block;
         position: relative;
 
         &::before{
             content: "";
             display: block;
-            width: rem(9px);
-            height: rem(9px);
+            width: 9px;
+            height: 9px;
             border-radius: 50%;
             background: $red;
             position: absolute;

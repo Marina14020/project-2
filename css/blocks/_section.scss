@@ -1,15 +1,15 @@
 .section{
     height: 100vh;
-    min-height: rem(650px);
+    min-height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 
     &__title{    
-        font-size: rem(48px);
+        font-size: 48px;
         font-weight: 700;
-        margin-bottom: rem(32px);
+        margin-bottom: 32px;
         text-align: center;
         text-transform: uppercase;
         color: $ColorTitle;
@@ -22,7 +22,7 @@
     }
 
     &__title-form{ //доставка
-        font-size: rem(48px);
+        font-size: 48px;
         font-weight: bold;
         text-transform: uppercase;
         color: $white;

@@ -2,9 +2,9 @@
     position: relative;
 
     &:before{
-        content: url("../img/decor/triangle.png");
+        content: url("../img/icons/triangle-red.svg");
         position: absolute;
-        bottom: rem(-20px);
+        bottom: -20px;
         left: 10%;
     }
 }
@@ -16,19 +16,19 @@
 
 
 /*.benefits-section{
-    background: url("../../img/decor/triangle.png") left rem(59px) top 100% no-repeat;
+    background: url("../../img/decor/triangle.png") left 59px top 100% no-repeat;
         position: relative;
 }*/
 
 /*content: url("../../img/decor/triangle.png");
         position: absolute;
-        bottom: rem(-80px);
+        bottom: -80px;
         left: 0%;
     }*/
 
 /*&:before{
     position: absolute;
-    bottom: rem(1px);
+    bottom: 1px;
     left: 1%;
     content: url("../../img/decor/triangle.png");
 }*/

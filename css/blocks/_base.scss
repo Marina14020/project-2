@@ -1,3 +1,16 @@
+@mixin tablets{
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@include tablets{
+    .menu{
+        display: none;
+    }
+}
+
+
 html{
     font-size: $baseFontSize;
     
@@ -53,6 +66,10 @@ h6{
     font-weight: normal;
 }
 
+h1{
+    margin-top: 10.7px;
+}
+
 table{
     border-collapse: collapse;
 }
@@ -87,136 +104,4 @@ a{
     display: block;
     max-width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

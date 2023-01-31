@@ -6,7 +6,7 @@
         &:before{
             content: url("../img/decor/sphere.png");
             position: absolute;
-            bottom: rem(-20px);
+            bottom: -20px;
             left: 10%;
         }
     }
@@ -18,26 +18,37 @@
         &::before{
             content: "";
             display: block;
-            width: rem(83px);
-            height: rem(83px);
+            width: 83px;
+            height: 83px;
             background: #fff;
             border-radius: 50%;
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
-            top: rem(-61px);
+            top: -61px;
         }
         
         &--inner{
             display: flex;
             background: $light-gray;
-            padding: rem(42px) rem(74px) rem(42px) rem(42px);
+            padding: 42px 74px 42px 42px;
+
+            //@include tablets{
+              //  flex-direction: column;
+                //text-align: center;
+                //align-items: center;
+            //}
         }
     }
 
     &__avatar{
-        width: rem(253px);
-        height: rem(264px);
+        width: 253px;
+        height: 264px;
+
+        @include tablets{
+            width: 130px;
+            height: 130px;
+        }
 
         &--img{
             object-fit: cover;
@@ -48,34 +59,37 @@
 
     &__content{
         flex: 1;
-        margin-left: rem(39px);
+        margin-left: 39px;
+
+        @include tablets{
+            margin-left: 0;
+        }
     }
 
     &__title{
         font-weight: 700;
-        font-size: rem(24px);
-        margin-bottom: rem(27px);
-        margin-top: rem(29px);
+        font-size: 24px;
+        //margin-bottom: 27px;
+        //margin-top: 29px;
         color: #292929;
     }
 
     &__text{
-        margin-bottom: rem(27px);
-        margin-right: rem(236px);
+        margin-bottom: 27px;//
+        margin-right: 236px;//
     }
 
     &__author{
         font-weight: 700;
-        font-size: rem(18px);
+        font-size: 18px;
         color: #292929;
     }
 
     &__switcher{
         display: flex;
         justify-content: center;
-        margin-top: rem(25px);
+        margin-top: 25px;
     }
-    
 }
 
 
